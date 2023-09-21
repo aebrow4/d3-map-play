@@ -25,5 +25,7 @@ module.exports = {
     },
     "rules": {
         "@typescript-eslint/no-non-null-assertion": "warn",
+        "@typescript-eslint/space-before-function-paren": ["error", "never"],
+        "@typescript-eslint/semi": ["error", "always"],
     }
 }
